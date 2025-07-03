@@ -1,0 +1,249 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.container {width: 1170px;}
+
+	.mainMenu > ul > li > a {margin-right: 12px; letter-spacing: 0.5px; }
+	.masonryChild._1 {width: 580px; }
+	.masonryChild._5 {width: 550px; }
+
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+	.container {width: 1000px; }
+	.hiddenTab {display: none !important;}
+
+	.nwUpdtCnt {height: 45px; line-height: 45px; }
+	.allUpdtsSpan {font-size: 18px;}
+	.allUpdtsSpan:after {
+	    border-top: 23px solid transparent;
+	    border-bottom: 23px solid transparent;
+	    border-left: 15px solid #eb2d25;
+	}
+	.updatesCnt {padding-left: 130px;}
+	.updatesCnt li a {font-size: 14px; height: 30px; line-height: 30px; margin-top: 5px; }
+	.updatesCnt li a:before {line-height: 31px;}
+	.jmaHmImgCnt {
+	    width: 300px;
+	    height: 386px;
+	    margin-right: 50px;
+	    margin-left: 30px;
+	}
+	section.abtJmaHm, section.glryHmSec, section.testimoniaSec {padding: 80px 0;}
+	.jmaHmCntntCnt, .linkCnt {margin-top: 0;}
+	.abtJmaHm .secHeading {margin-bottom: 25px; }
+	.secHeading h1 {font-size: 32px;}
+	.abtJmaHm .cntnt {margin-bottom: 40px;}
+	.mrSitesHmPg {height: 300px;}
+	.linkCnt ul li {height: 215px;}
+
+
+
+
+
+
+}
+
+
+/* @media (max-width: 1169px) and (min-width: 1024px) {
+	.hiddenTab {display: none !important;}
+	.container {width: 1024px;}
+
+} */
+@media (max-width: 1023px) and (min-width: 992px) {
+	
+}
+
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+	
+}
+
+
+
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+	.hiddenMob {display: none !important;}
+
+
+	.ltstEvntSec, .socialSec {display: none;}
+	.masonryChild {width: 100% !important;}
+
+	header {height: 60px;}
+	.jamiaLogo {
+	    width: 180px;
+	    height: 40px;
+	    margin-top: 10px;
+	}
+	.jmaLogo {-webkit-background-size: 100%; background-size: 100%;}
+	.hmbrgrMenu {margin: 20px 10px 0 10px;}
+	.searchIcon {
+		margin: 10px 0 0 0;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.langBar {margin: 15px 5px 0 5px;}
+	.nwUpdtCnt {height: 45px; line-height: 45px;}
+	.allUpdtsSpan {padding: 0 10px; font-size: 15px; }
+	.allUpdtsSpan:after {
+	    border-top: 23px solid transparent;
+	    border-bottom: 23px solid transparent;
+	    border-left: 13px solid #eb2d25;
+	}
+	.updatesCnt {padding-left: 100px; margin-top: 0;height: 45px;}
+	section.sliderSec {margin-top: 60px;}
+	.updatesCnt li a {
+	    font-size: 14px;
+	    padding: 0 10px 0 25px;
+	    height: 30px;
+	    line-height: 30px;
+	    margin-top: 8px;
+	}
+		.updatesCnt li a:before {position: absolute; left: 10px; top: 6px; }
+	.donationBtn {top:170px;}
+	.jmaHmImgCnt {
+		width: 270px;
+		height: 348px;
+		float: none;
+		margin: 0 auto;
+	}
+	.jmaHmImg {
+		-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+		box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	}
+	.jmaHmImgCnt:before {
+	    width: 100vw;
+	    height: 50%;
+	    border: 0;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    background-color: #e6e6e6;
+	}
+	.jmaHmImgCnt:after {
+	    width: 90%;
+	    height: 91%;
+	    border: 3px solid #fff;
+	}
+	section.abtJmaHm, section.glryHmSec, section.testimoniaSec{ 
+		padding: 50px 0;
+		background-attachment: scroll;
+	}
+	.jmaHmCntntCnt {width: 100%;}
+	.secHeading h1 {font-size: 28px; text-align: center; } 
+	.jmaHmCntntCnt .cntnt p {
+	    padding: 0 10px;
+	    border: 0;
+	    font-size: 16px;
+	    text-align: center;
+	    line-height: 20px;
+	}
+	.abtJmaHm .secHeading {margin-bottom: 20px; text-align: left; margin-top: 20px; }
+	.readMoreBtnCnt {text-align: center;}
+	.donate_ppup_cnt {padding: 0 20px;}
+	.donate_ppup_txt p {font-size: 18px; line-height: 24px; }
+	.donate_ppup_txt {padding: 50px 20px 25px 20px; }
+	.mrSitesHmPg {
+	    height: 180px;
+	    background-attachment: scroll;
+	    background-repeat: initial;
+	    padding-top: 50px;
+	}
+	.mrSitesHmPg .secHeading {margin-bottom: 30px;}
+	.linkCnt {margin-top: 0;display: block;}
+	.linkCnt ul {
+		width: 100vw;
+		white-space: nowrap;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		margin-left: -10px;
+		padding-left: 10px;
+	}
+	.linkCnt ul li {width: 240px; float: none; height: 164px; }
+	.secHeading {margin-bottom: 50px;}
+	.masonryChild {
+	    width: 100% !important;
+	    height: 200px !important;
+	    margin-right: 0;
+	    margin-top: 0 !important;
+	    margin-bottom: 10px !important;
+	}
+	.hmGlryLghtBxCnt {height: auto;}
+	.tsmnalCntnt {
+	    font-size: 16px;
+	    line-height: 22px;
+	    text-align: center;
+	    padding: 50px 10px;
+	}
+	section.testimoniaSec {padding-bottom: 70px; }
+	.athrNm {font-size: 18px; margin-top: 0;}
+	.glryHmSec .readMoreBtnCnt {margin-right: 40px;}
+	.lghtBxCntnt {font-size: 14px; padding: 80px 15px 15px;}
+	.slideBtns, .clsBtn {
+		z-index: 3;
+	    width: 30px;
+	    height: 30px;
+	    line-height: 31px;
+	}
+	.closeBtn {line-height: 25px;}
+	.slideBtns.nextBtn {right: 5px; }
+	.slideBtns.prevBtn {left: 5px; }
+	footer {padding: 50px 0 80px; }
+	.footer-logo-cont {margin-bottom: 40px;}
+	.ftr_main_cnt, .ftr_sec_cnt {width: 100%;}
+	.ftr_sec_cnt {padding-right: 0;}
+	.ftr_main_cnt {
+		padding: 0 30px;
+	}
+	.copyright-cont {
+	    overflow-x: scroll;
+	    white-space: nowrap;
+	    padding: 0 20px;
+	}
+	.copyright-cont a {margin-right: 30px;}
+	.qck_lnks_cnt {margin-bottom: 30px;}
+	.ftr_sec_sb ul.lnks_ul li a {padding: 8px 0 8px 15px;}
+	.sbscribe_frm input, .sbscribe_frm button {height: 40px;text-align: center;}
+	.sbscribe_frm button {width: 100%;margin-top: 5px;}
+	.sbscribe_frm button:hover {box-shadow: 320px 0 0 #ff7264 inset;}
+	.vstrCntr {text-align: center;}
+	.srchInputCnt, .srchInputCnt input {height: 50px;position: relative;padding: 0 15px;}
+	.seachBtn {right: 15px; width: 50px;height: 50px;font-size: 16px;}
+	.srchInputCnt input {padding-right: 65px; font-size: 16px;}
+	.srchInputCnt input::-webkit-input-placeholder { font-size: 18px;}
+	.srchInputCnt input::-moz-placeholder {font-size: 18px;}
+	:-ms-input-placeholder {font-size: 18px;}
+	.srchInputCnt input::-moz-placeholder {font-size: 18px;}
+	.hmbrgrMenuCnt {top: 60px;}
+	.menuBrCnt {
+	    width: 300px;
+	    height: 100vh;
+	    margin-left: -10px;
+	    overflow-y: scroll;
+	    padding-bottom: 50px;
+	}
+	.menuBrCnt ul li:first-child {border-top: 1px solid #ccc;}
+	.menuBrCnt ul > li, .menuBrCnt .donationBnt { float: left; width: 100%; }
+	.menuBrCnt ul > li > a {border-color: #ccc; font-size: 18px; padding: 0 10px}
+	.menuBrCnt ul > li.sbMenu:after {display: none;}
+	.menuBrCnt ul > li > ul.hmbrgrSubMenu {
+		width: 100%;
+		position: relative;
+		left: initial;
+		top: initial;
+		float: left;
+		overflow: hidden;
+		display: none;
+	}
+	.menuBrCnt ul > li .mblArw {
+		width: 45px;
+		height: 45px;
+		top: 0;
+		right: 0;
+		line-height: 45px;
+		font-size: 20px;
+		display: block !important;
+	}
+
+}
